@@ -9,17 +9,23 @@
 
 // Add your code right below, good luck!
 
+let firstName = "Carlos";
+let lastName = "Stevenson";
+let birthYear = 1947;
+let thisYear = 1965;
+let fullName = firstName + ' ' + lastName;
+let age = thisYear - birthYear
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
+let log = console.log(greeting);
 
-
-
-// Do not change this
+// Do not change thisa
 module.exports = {
-  firstName: typeof firstName === 'undefined' ? undefined : firstName,
-  lastName: typeof lastName === 'undefined' ? undefined : lastName,
-  thisYear: typeof thisYear === 'undefined' ? undefined : thisYear,
-  birthYear: typeof birthYear === 'undefined' ? undefined : birthYear,
-  greeting: typeof greeting === 'undefined' ? undefined : greeting,
-  fullName: typeof fullName === 'undefined' ? undefined : fullName,
-  age: typeof age === 'undefined' ? undefined : age
+    firstName: typeof firstName === 'undefined' ? undefined : firstName,
+    lastName: typeof lastName === 'undefined' ? undefined : lastName,
+    thisYear: typeof thisYear === 'undefined' ? undefined : thisYear,
+    birthYear: typeof birthYear === 'undefined' ? undefined : birthYear,
+    greeting: typeof greeting === 'undefined' ? undefined : greeting,
+    fullName: typeof fullName === 'undefined' ? undefined : fullName,
+    age: typeof age === 'undefined' ? undefined : age
 }
